@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<JUCERPROJECT id="sYF1yl" name="Anysynth" projectType="audioplug" useAppConfig="0"
+              addUsingNamespaceToJuceHeader="0" displaySplashScreen="1" jucerFormatVersion="1"
+              pluginCharacteristicsValue="pluginIsSynth,pluginProducesMidiOut,pluginWantsMidiIn">
+  <MAINGROUP id="XEwzbt" name="Anysynth">
+    <GROUP id="{95B6CA11-917F-CC30-1532-BEBD22229242}" name="Source">
+      <FILE id="WIJgdB" name="PluginProcessor.cpp" compile="1" resource="0"
+            file="Source/PluginProcessor.cpp"/>
+      <FILE id="Z3kMaA" name="PluginProcessor.h" compile="0" resource="0"
+            file="Source/PluginProcessor.h"/>
+      <FILE id="cjybWo" name="PluginEditor.cpp" compile="1" resource="0"
+            file="Source/PluginEditor.cpp"/>
+      <FILE id="zHxTDR" name="PluginEditor.h" compile="0" resource="0" file="Source/PluginEditor.h"/>
+      <FILE id="YhLiNY" name="Envelope.cpp" compile="1" resource="0" file="Source/Envelope.cpp"/>
+      <FILE id="BsK7eD" name="Envelope.h" compile="0" resource="0" file="Source/Envelope.h"/>
+      <FILE id="kl8PTg" name="Filter.cpp" compile="1" resource="0" file="Source/Filter.cpp"/>
+      <FILE id="c0xkTO" name="Filter.h" compile="0" resource="0" file="Source/Filter.h"/>
+      <FILE id="FQ5odG" name="SynthSound.h" compile="0" resource="0" file="Source/SynthSound.h"/>
+      <FILE id="teH2D8" name="SynthVoice.h" compile="0" resource="0" file="Source/SynthVoice.h"/>
+      <FILE id="hQbX8t" name="Oscillator.cpp" compile="1" resource="0" file="Source/Oscillator.cpp"/>
+      <FILE id="kgnrKt" name="Oscillator.h" compile="0" resource="0" file="Source/Oscillator.h"/>
+      <GROUP id="{98015807-B571-D0E9-195A-70483B113DE6}" name="Maximilian">
+        <FILE id="nJXtMv" name="maximilian.cpp" compile="1" resource="0" file="Source/Maximilian/maximilian.cpp"/>
+        <FILE id="AxVLuq" name="maximilian.h" compile="0" resource="0" file="Source/Maximilian/maximilian.h"/>
+      </GROUP>
+    </GROUP>
+  </MAINGROUP>
+  <JUCEOPTIONS JUCE_STRICT_REFCOUNTEDPOINTER="1" JUCE_VST3_CAN_REPLACE_VST2="0"/>
+  <EXPORTFORMATS>
+    <VS2022 targetFolder="Builds/VisualStudio2022">
+      <CONFIGURATIONS>
+        <CONFIGURATION isDebug="1" name="Debug" targetName="Anysynth" headerPath="C:\Users\derek\OneDrive\Documents\JUCE\projects\Anysynth\Source\Maximilian"/>
+        <CONFIGURATION isDebug="0" name="Release" targetName="Anysynth"/>
+      </CONFIGURATIONS>
+      <MODULEPATHS>
+        <MODULEPATH id="juce_audio_basics" path="../../../JuceInst2/JUCE/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_devices" path="../../../JuceInst2/JUCE/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_formats" path="../../../JuceInst2/JUCE/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_plugin_client" path="../../../JuceInst2/JUCE/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_processors" path="../../../JuceInst2/JUCE/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_utils" path="../../../JuceInst2/JUCE/JUCE/modules"/>
+        <MODULEPATH id="juce_core" path="../../../JuceInst2/JUCE/JUCE/modules"/>
+        <MODULEPATH id="juce_data_structures" path="../../../JuceInst2/JUCE/JUCE/modules"/>
+        <MODULEPATH id="juce_events" path="../../../JuceInst2/JUCE/JUCE/modules"/>
+        <MODULEPATH id="juce_graphics" path="../../../JuceInst2/JUCE/JUCE/modules"/>
+        <MODULEPATH id="juce_gui_basics" path="../../../JuceInst2/JUCE/JUCE/modules"/>
+        <MODULEPATH id="juce_gui_extra" path="../../../JuceInst2/JUCE/JUCE/modules"/>
+      </MODULEPATHS>
+    </VS2022>
+  </EXPORTFORMATS>
+  <MODULES>
+    <MODULE id="juce_audio_basics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_devices" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_formats" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_plugin_client" showAllCode="1" useLocalCopy="0"
+            useGlobalPath="1"/>
+    <MODULE id="juce_audio_processors" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_utils" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_core" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_data_structures" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_events" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_graphics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_gui_basics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_gui_extra" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+  </MODULES>
+</JUCERPROJECT>
